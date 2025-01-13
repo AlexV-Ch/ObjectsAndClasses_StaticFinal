@@ -13,7 +13,7 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "Computer: \n" +
+        return "Computer : \n" +
                  processor.toString() +
                 "\n" +
                 "  ";
