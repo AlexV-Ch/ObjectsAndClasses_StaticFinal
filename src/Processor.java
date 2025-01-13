@@ -26,7 +26,7 @@ public class Processor {
     @Override
     public String toString() {
         return "Processor: " +
-                " тип   = " + type + "," +
+                " тип = " + type + "," +
                 " megagerc = " + megagerc + "," +
                 " count = " + count;
     }
