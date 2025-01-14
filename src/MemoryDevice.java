@@ -23,10 +23,8 @@ public class MemoryDevice {
 
     @Override
     public String toString() {
-        return "MemoryDevice{" +
-                "type=" + type +
-                ", volume='" + volume + '\'' +
-                ", weight=" + weight +
-                '}';
+        return "тип - " + type +
+                ", объем - " + volume +
+                ", вес - " + weight;
     }
 }

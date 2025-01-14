@@ -4,6 +4,13 @@ public class Computer {
     private MemoryDevice memoryDevice;
     private Screen screen;
     private Keyboard keyboard;
+    private final String  vendor;
+    private final String  name;
+
+    public Computer(String vendor, String name) {
+        this.vendor = vendor;
+        this.name = name;
+    }
 
     public Keyboard getKeyboard() {
         return keyboard;
@@ -47,12 +54,13 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "Computer" + '\n' +
-                "processor   = " + processor + '\n' +
-                "memory      = " + memory + '\n' +
-                "memoryDevice= " + memoryDevice + '\n' +
-                "screen      = " + screen + '\n' +
-                "keyboard    = " + keyboard + '\n';
+        return "Компьютер - " + name + '\n' +
+                "Производитель: " + vendor + '\n' +
+                "Процессор: " + processor + '\n' +
+                "Оперативная память: " + memory + '\n' +
+                "Накопитель информации: " + memoryDevice + '\n' +
+                "Экран: " + screen + '\n' +
+                "Клавиатура: " + keyboard + '\n';
     }
 }
 

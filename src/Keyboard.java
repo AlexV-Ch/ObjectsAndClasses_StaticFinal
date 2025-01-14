@@ -23,10 +23,8 @@ public class Keyboard {
 
     @Override
     public String toString() {
-        return "Keyboard{" +
-                "keyboardType=" + keyboardType +
-                ", keyboardBacklight=" + keyboardBacklight +
-                ", weight=" + weight +
-                '}';
+        return "тип клавиатуры - " + keyboardType +
+                ", Наличие подсветки - " + keyboardBacklight +
+                ", вес - " + weight;
     }
 }

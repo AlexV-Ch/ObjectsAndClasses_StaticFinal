@@ -23,10 +23,8 @@ public class Memory {
 
     @Override
     public String toString() {
-        return "Memory{" +
-                "type=" + type +
-                ", volume='" + volume + '\'' +
-                ", weight=" + weight +
-                '}';
+        return "тип - " + type +
+                ", объем - " + volume +
+                ", вес - " + weight;
     }
 }

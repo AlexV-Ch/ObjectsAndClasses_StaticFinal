@@ -8,7 +8,7 @@ public class Main {
     Screen acer1 = new Screen(24, ScreenType.IPS, 1500);
     Keyboard key1 = new Keyboard(KeyboardType.Membrane, KeyboardBacklight.YES, 300);
 
-    Computer computer1 = new Computer();
+    Computer computer1 = new Computer("Локалов", "Эконом");
     computer1.setProcessor(intel3);
     computer1.setMemory(ddr_1);
     computer1.setMemoryDevice(ssd_1);

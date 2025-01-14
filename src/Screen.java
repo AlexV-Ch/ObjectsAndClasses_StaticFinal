@@ -23,10 +23,8 @@ public class Screen {
 
     @Override
     public String toString() {
-        return "Screen{" +
-                "diagonal=" + diagonal +
-                ", screenType=" + screenType +
-                ", weight=" + weight +
-                '}';
+        return "диагональ - " + diagonal +
+                ", тип экрана - " + screenType +
+                ", вес - " + weight;
     }
 }

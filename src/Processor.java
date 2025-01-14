@@ -29,12 +29,10 @@ public class Processor {
 
     @Override
     public String toString() {
-        return "Processor{" +
-                "type=" + type +
-                ", megaHz='" + megaHz +
-                ", cores=" + cores +
-                ", weight=" + weight +
-                '}';
+        return "производитель - " + type +
+                ", частота - " + megaHz +
+                ", кол-во ядер - " + cores +
+                ", вес - " + weight;
     }
 }
 
