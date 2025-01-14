@@ -9,14 +9,30 @@ public class Main {
     Keyboard key1 = new Keyboard(KeyboardType.Membrane, KeyboardBacklight.YES, 300);
 
     Computer computer1 = new Computer("Локалов", "Эконом");
+    Computer computer2 = new Computer("Самопал", "Норм");
+    Computer computer3 = new Computer("ДНС", "АМД");
     computer1.setProcessor(intel3);
     computer1.setMemory(ddr_1);
     computer1.setMemoryDevice(ssd_1);
     computer1.setScreen(acer1);
     computer1.setKeyboard(key1);
+
+        computer2.setProcessor(intel5);
+        computer2.setMemory(ddr_1);
+        computer2.setMemoryDevice(ssd_1);
+        computer2.setScreen(acer1);
+        computer2.setKeyboard(key1);
+
+        computer3.setProcessor(amd);
+        computer3.setMemory(ddr_1);
+        computer3.setMemoryDevice(ssd_1);
+        computer3.setScreen(acer1);
+        computer3.setKeyboard(key1);
         System.out.println(computer1.toString());
     computer1.setProcessor(intel5);
         System.out.println(computer1.toString());
+        System.out.println(computer2.toString());
+        System.out.println(computer3.toString());
 
 
         //Processor intel = new Processor(ProcessorManufacturer.Intel,"3200Mg", 16);
