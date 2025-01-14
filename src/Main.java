@@ -29,7 +29,7 @@ public class Main {
         computer3.setScreen(acer1);
         computer3.setKeyboard(key1);
         System.out.println(computer1.toString());
-    computer1.setProcessor(intel5);
+        computer1.setProcessor(intel5);
         System.out.println(computer1.toString());
         System.out.println(computer2.toString());
         System.out.println(computer3.toString());
