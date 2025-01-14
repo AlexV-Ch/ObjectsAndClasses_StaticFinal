@@ -52,6 +52,23 @@ public class Computer {
         this.processor = processor;
     }
 
+    public int allWeight() {
+        return processor.getWeight() +
+                memory.getWeight() +
+                memoryDevice.getWeight() +
+                screen.getWeight() +
+                keyboard.getWeight();
+    }
+
+    public int allWeight1() {
+        return getProcessor().getWeight() +
+                getMemory().getWeight() +
+                getMemoryDevice().getWeight() +
+                getScreen().getWeight() +
+                getKeyboard().getWeight();
+    }
+
+
     @Override
     public String toString() {
         return "Компьютер - " + name + '\n' +
@@ -60,7 +77,9 @@ public class Computer {
                 "Оперативная память: " + memory + '\n' +
                 "Накопитель информации: " + memoryDevice + '\n' +
                 "Экран: " + screen + '\n' +
-                "Клавиатура: " + keyboard + '\n';
+                "Клавиатура: " + keyboard + '\n' +
+                "Общий вес компьютера составляет " + allWeight() + " гр." + '\n' +
+                "Общий вес компьютера составляет " + allWeight1() + " гр.";
     }
 }
 
