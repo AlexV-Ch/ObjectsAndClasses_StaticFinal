@@ -1,3 +1,5 @@
+import ENUM.MemoryType;
+
 public class Memory {
     private final MemoryType type;
     private final String volume;

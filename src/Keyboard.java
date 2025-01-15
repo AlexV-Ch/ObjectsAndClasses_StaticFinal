@@ -1,3 +1,6 @@
+import ENUM.KeyboardBacklight;
+import ENUM.KeyboardType;
+
 public class Keyboard {
     private final KeyboardType keyboardType;
     private final KeyboardBacklight keyboardBacklight;

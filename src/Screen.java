@@ -1,3 +1,5 @@
+import ENUM.ScreenType;
+
 public class Screen {
     private final int diagonal;
     private final ScreenType screenType;

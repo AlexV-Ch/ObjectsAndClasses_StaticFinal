@@ -1,3 +1,5 @@
+import ENUM.MemoryDeviceType;
+
 public class MemoryDevice {
     private final MemoryDeviceType type;
     private final String volume;

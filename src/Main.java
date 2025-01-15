@@ -1,3 +1,5 @@
+import ENUM.*;
+
 public class Main {
     public static void main(String[] args) {
     Processor intel3 = new Processor(ProcessorManufacturer.Intel, "2500Mhz", 2, 10);
