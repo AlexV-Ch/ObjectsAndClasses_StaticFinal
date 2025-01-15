@@ -19,6 +19,7 @@ public class Main {
     computer1.setScreen(acer1);
     computer1.setKeyboard(key1);
 
+
         computer2.setProcessor(intel5);
         computer2.setMemory(ddr_1);
         computer2.setMemoryDevice(ssd_1);
